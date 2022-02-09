@@ -213,6 +213,11 @@ img{
 
 }
 
+.contato{
+    padding-bottom: 20px;
+
+}
+
 footer{
     background-image: linear-gradient(#f57070,#f37272,#fd8989);
     margin-top: 20px;
