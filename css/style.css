@@ -182,7 +182,7 @@ img{
     height: 206px;
     position: relative;
     margin-top: -341px;
-    margin-left: 235px;
+    margin-left: 150px;
     margin-bottom: 5px;
     border-radius: 21px;
     border: solid rgba(0, 0, 0, 0.589);
@@ -206,6 +206,7 @@ img{
     background-color: white;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 10px;
     margin: auto;
     max-width: 80%;
