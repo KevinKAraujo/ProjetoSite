@@ -208,13 +208,14 @@ img{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin: auto;
-    max-width: 80%;
+    padding-left: 40px;
+    max-width: 50%;
 
 }
 
 .contato{
     padding-bottom: 20px;
+    padding-right: 40px;
 
 }
 
