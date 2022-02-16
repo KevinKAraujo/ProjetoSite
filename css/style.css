@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -90,7 +91,7 @@ main{
     max-width: 1000px;
     margin:auto;
     margin-top: 3px;
-    padding: 10px 0px 0px 15px;
+    padding: 10px 0px 0px 10px;
     line-height: 1.4em;
     font-family: Arial, Helvetica, sans-serif;
     text-justify: justify;
@@ -203,13 +204,14 @@ img{
 /*SECTION 3 - CONTAto*/
 
 #section03{
-    background-color: white;
+    background-image: url("../imagens/fundo.png");
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10px;
     padding-left: 40px;
-    max-width: 50%;
+    max-width: 1000%;
+    margin-top: 3px;
+    padding-top: 15px;
 
 }
 
@@ -219,14 +221,116 @@ img{
 
 }
 
+/*FORMULARIO*/
+
+
+h2#form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 20px 0px 10px 25px;
+}
+
+#linhaform{
+    border-color: rgb(253, 104, 129);
+    width: 25%;
+    border-color: rgb(253, 104, 129);
+    margin-left: 25px;
+}
+
+fieldset{
+    margin-top: -15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(211, 211, 211, 0.315);
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+   
+
+}
+
+.caixas{
+    margin: auto;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 0%;
+    
+}
+
+input#nome, input#sobrenome, input#email{
+    height: 25px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+    margin: auto;
+}
+textarea{
+    margin: auto;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+}
+
+input#nome:focus, input#sobrenome:focus, input#email:focus, textarea:focus{
+    background-color: #fff1f1;
+
+}
+
+#botao:hover{
+    background-color: rgba(253, 104, 129)
+
+}
+
+
+/*RODAPE*/
+
 footer{
     background-image: linear-gradient(#f57070,#f37272,#fd8989);
-    margin-top: 20px;
+    margin-top: 1px;
     text-align: center;
     padding: 10px 0px 10px 0px;
     font-size: 19px;
-    box-shadow: 1px -1px 5px 0px rgba(0, 0, 0, 0.473);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.473);
 }
+
+#botao{
+    padding: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: pink;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.212);
+    border: none;
+}
+
+#facebook{
+    background-color: rgb(253, 229, 233);
+    margin-left: -20px;
+    padding: 15px 30px 15px 30px;
+    border: 1px solid black;
+    list-style: none;
+    text-decoration: none;
+}
+
+#facebook:hover{
+    background-color: rgb(255, 137, 156);
+
+}
+
+#instagran{
+    background-color: rgb(253, 229, 233);
+    padding: 15px 30px 15px 30px;
+    border: 1px solid black;
+}
+
+#instagran:hover{
+    background-color: rgb(255, 137, 156);
+
+}
+
+
+
 
 
 
